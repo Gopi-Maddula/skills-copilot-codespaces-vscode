@@ -14,4 +14,5 @@ app.get('/api/comments', (req, res) => {
 //run the server
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`);
+
 });
